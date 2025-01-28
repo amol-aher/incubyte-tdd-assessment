@@ -82,7 +82,7 @@ Step 6 - Post:
   Finished in 0.001326s, 3771.8940 runs/s, 3771.8940 assertions/s.
   5 runs, 5 assertions, 0 failures, 0 errors, 0 skips
 
-Step 7 - Post:
+Step 7 - Pre:
   Run options: --seed 57725
   # Running:
   F.....
@@ -92,3 +92,10 @@ Step 7 - Post:
   Expected: 3
     Actual: 1
   6 runs, 6 assertions, 1 failures, 0 errors, 0 skips
+
+Step 7 - PostL
+  Run options: --seed 63669
+  # Running:
+  ......
+  Finished in 0.001339s, 4481.8764 runs/s, 4481.8764 assertions/s.
+  6 runs, 6 assertions, 0 failures, 0 errors, 0 skips
