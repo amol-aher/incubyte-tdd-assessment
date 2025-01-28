@@ -31,4 +31,8 @@ class StringCalculatorTest < Minitest::Test
   def test_newline_delimiters
     assert_equal 8, @calculator.add("1\n4,3")
   end
+
+  def test_custom_delimiter_support
+    assert_equal 3, @calculator.add("//;\n1;2")
+  end
 end

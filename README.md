@@ -81,3 +81,14 @@ Step 6 - Post:
   .....
   Finished in 0.001326s, 3771.8940 runs/s, 3771.8940 assertions/s.
   5 runs, 5 assertions, 0 failures, 0 errors, 0 skips
+
+Step 7 - Post:
+  Run options: --seed 57725
+  # Running:
+  F.....
+  Finished in 0.001029s, 5829.0514 runs/s, 5829.0514 assertions/s.
+    1) Failure:
+  StringCalculatorTest#test_custom_delimiter_support [incubyte-assessment.rb:36]:
+  Expected: 3
+    Actual: 1
+  6 runs, 6 assertions, 1 failures, 0 errors, 0 skips
