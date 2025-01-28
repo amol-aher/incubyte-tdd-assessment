@@ -32,5 +32,11 @@ Step 3 - Pre:
     Actual: nil
   2 runs, 2 assertions, 1 failures, 0 errors, 0 skips
 
+Step 3 - Post:
+  Run options: --seed 49124
+  # Running:
+  ..
+  Finished in 0.001256s, 1592.8475 runs/s, 1592.8475 assertions/s.
+  2 runs, 2 assertions, 0 failures, 0 errors, 0 skips
 
 
