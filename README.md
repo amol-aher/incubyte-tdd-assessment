@@ -39,4 +39,15 @@ Step 3 - Post:
   Finished in 0.001256s, 1592.8475 runs/s, 1592.8475 assertions/s.
   2 runs, 2 assertions, 0 failures, 0 errors, 0 skips
 
+Step 4 - Pre:
+  Run options: --seed 50115
+  # Running:
+  ..F
+  Finished in 0.001391s, 2156.4489 runs/s, 2156.4489 assertions/s.
+  1) Failure:
+  StringCalculatorTest#test_two_numbers [incubyte-assessment.rb:24]:
+  Expected: 4
+    Actual: 1
+  3 runs, 3 assertions, 1 failures, 0 errors, 0 skips
+
 
