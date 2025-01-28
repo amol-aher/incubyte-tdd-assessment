@@ -99,3 +99,14 @@ Step 7 - PostL
   ......
   Finished in 0.001339s, 4481.8764 runs/s, 4481.8764 assertions/s.
   6 runs, 6 assertions, 0 failures, 0 errors, 0 skips
+
+Step 8 - Pre:
+  Run options: --seed 47895
+  # Running:
+  ..F....
+  Finished in 0.001187s, 5896.3804 runs/s, 5896.3804 assertions/s.
+    1) Failure:
+  StringCalculatorTest#test_exception_raised_on_negative_number [incubyte-assessment.rb:45]:
+  RuntimeError expected but nothing was raised.
+  7 runs, 7 assertions, 1 failures, 0 errors, 0 skips
+
