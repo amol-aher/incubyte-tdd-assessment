@@ -1,7 +1,7 @@
 class StringCalculator
   def add(numbers)
     return 0 if numbers.empty?
-    numbers.split(",").map(&:to_i).sum
+    numbers.split(/,|\n/).map(&:to_i).sum
   end
 end
 
@@ -29,6 +29,6 @@ class StringCalculatorTest < Minitest::Test
   end
 
   def test_newline_delimiters
-    assert_equal 8, @calculator.add('1\n3,4')
+    assert_equal 8, @calculator.add("1\n4,3")
   end
 end

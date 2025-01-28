@@ -64,7 +64,7 @@ Step 5:
   Finished in 0.001389s, 2879.8940 runs/s, 2879.8940 assertions/s.
   4 runs, 4 assertions, 0 failures, 0 errors, 0 skips
 
-Step 6:
+Step 6 - Pre:
   Run options: --seed 7433
   # Running:
   ...F.
@@ -75,4 +75,9 @@ Step 6:
     Actual: 5
   5 runs, 5 assertions, 1 failures, 0 errors, 0 skips
 
-
+Step 6 - Post:
+  Run options: --seed 17826
+  # Running:
+  .....
+  Finished in 0.001326s, 3771.8940 runs/s, 3771.8940 assertions/s.
+  5 runs, 5 assertions, 0 failures, 0 errors, 0 skips
