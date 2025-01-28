@@ -1,12 +1,12 @@
 class StringCalculator
   def add(numbers)
     return 0 if numbers.empty?
-    if numbers.start_with?("//")
-      delimiter, numbers = numbers.match(%r{//(.)\n(.*)}).captures
-      numbers.split(/#{delimiter}/).map(&:to_i).sum
-    else
-      numbers.split(/,|\n/).map(&:to_i).sum
-    end
+    delimiter = numbers.start_with?("//") ? numbers.match(%r{//(.)\n(.*)})[1] : /,|\n/
+    numbers = numbers.sub(%r{//(.)\n}, '')
+    nums = numbers.split(/#{delimiter}/).map(&:to_i)
+    negative = nums.select(&:negative?)
+    raise "negative numbers not allowed: #{negative.join(', ')}" if negative.any?
+    nums.sum
   end
 end
 

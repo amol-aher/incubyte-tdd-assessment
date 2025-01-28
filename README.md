@@ -110,3 +110,11 @@ Step 8 - Pre:
   RuntimeError expected but nothing was raised.
   7 runs, 7 assertions, 1 failures, 0 errors, 0 skips
 
+Step 8 - Post:
+  Run options: --seed 41280
+  # Running:
+  .......
+  Finished in 0.001233s, 5676.3169 runs/s, 6487.2194 assertions/s.
+  7 runs, 8 assertions, 0 failures, 0 errors, 0 skips
+
+
