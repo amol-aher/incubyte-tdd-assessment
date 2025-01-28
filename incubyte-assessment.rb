@@ -23,4 +23,8 @@ class StringCalculatorTest < Minitest::Test
   def test_two_numbers
     assert_equal 4, @calculator.add('1, 3')
   end
+
+  def test_any_amount_of_numbers
+    assert_equal 6, @calculator.add('1, 4, 1')
+  end
 end

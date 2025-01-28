@@ -57,5 +57,11 @@ Step 4 - Post:
   Finished in 0.001196s, 2508.5730 runs/s, 2508.5730 assertions/s.
   3 runs, 3 assertions, 0 failures, 0 errors, 0 skips
 
+Step 5:
+  Run options: --seed 28685
+  # Running:
+  ....
+  Finished in 0.001389s, 2879.8940 runs/s, 2879.8940 assertions/s.
+  4 runs, 4 assertions, 0 failures, 0 errors, 0 skips
 
 
