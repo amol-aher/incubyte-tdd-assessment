@@ -64,4 +64,15 @@ Step 5:
   Finished in 0.001389s, 2879.8940 runs/s, 2879.8940 assertions/s.
   4 runs, 4 assertions, 0 failures, 0 errors, 0 skips
 
+Step 6:
+  Run options: --seed 7433
+  # Running:
+  ...F.
+  Finished in 0.001246s, 4011.7979 runs/s, 4011.7979 assertions/s.
+    1) Failure:
+  StringCalculatorTest#test_newline_delimiters [incubyte-assessment.rb:32]:
+  Expected: 8
+    Actual: 5
+  5 runs, 5 assertions, 1 failures, 0 errors, 0 skips
+
 

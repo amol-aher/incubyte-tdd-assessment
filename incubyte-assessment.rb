@@ -27,4 +27,8 @@ class StringCalculatorTest < Minitest::Test
   def test_any_amount_of_numbers
     assert_equal 6, @calculator.add('1, 4, 1')
   end
+
+  def test_newline_delimiters
+    assert_equal 8, @calculator.add('1\n3,4')
+  end
 end
