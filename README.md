@@ -50,4 +50,12 @@ Step 4 - Pre:
     Actual: 1
   3 runs, 3 assertions, 1 failures, 0 errors, 0 skips
 
+Step 4 - Post:
+  Run options: --seed 21938
+  # Running:
+  ...
+  Finished in 0.001196s, 2508.5730 runs/s, 2508.5730 assertions/s.
+  3 runs, 3 assertions, 0 failures, 0 errors, 0 skips
+
+
 
